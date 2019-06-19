@@ -1,0 +1,107 @@
+<!DOCTYPE html> <html><head>
+        <title>Testimonials</title>
+    <style>/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000180;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 19px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+H1{font-size: 80px;
+text-align: center;}
+ul{list-style-type: circle;
+font-size: 50px;
+}#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkblue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}</style></head>
+    <body>
+            
+ <div class="topnav">
+<a href="#contact">Contact</a>
+<a href="#home">FAQS</a>
+<a class="active" href="#news">Testimonials</a>
+<a href="#about">Services</a>
+<a href="#about">About Us</a>
+<a href=" https://popcode.org/?gist=f2772e66fe4687f5fd05e75b559eea08">Home</a>
+</div>
+<h1>Testimonials</h1>
+<hr>
+<h3>Liked your service? Leave a Review!</h3>
+<ul>
+  <li>"SO GREAT LOL"</li>
+  <li>"GOOD HOUSE"</li>
+  <li>"REEEEEEEE"</li>
+  <li>"Very Nice"</li>
+  <li>"GOODy"</li>
+  <li>"WEEEEEEEE"</li>
+  <li>"SO GREAT LOL"</li>
+  <li>"GOOD HOUSE"</li>
+  <li>"LEEEEEEEE"</li>
+  <li>"Really Nice"</li>
+  <li>"I got a new door!"</li>
+  <li>"QEEEEEEEE"</li>
+</ul>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+
+<script>
+/*__POPCODESTART__*/
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction();};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script></body></html>
